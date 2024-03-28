@@ -1,0 +1,175 @@
+/* Container for the form */
+#user-registration-review-form {
+    max-width: var(--wp--style--global--content-size);
+    margin: auto auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.user-registration-review-container {
+    padding: 20px;
+}
+#user-registration-review-form h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+}
+
+#user-registration-review-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #555;
+}
+
+#user-registration-review-form input[type="text"],
+#user-registration-review-form input[type="email"],
+#user-registration-review-form input[type="password"],
+#user-registration-review-form textarea,
+#user-registration-review-form input[type="number"] {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#user-registration-review-form button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#user-registration-review-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Rating input */
+#user-registration-review-form input[type="number"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: calc(100% - 30px);
+    height: 30px;
+    padding: 0 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Rating label */
+.rating-label {
+    font-weight: 600;
+    color: #555;
+}
+
+/* Review text area */
+#user-registration-review-form textarea {
+    height: 100px;
+}
+
+/* Success message */
+.success-message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+    color: #3c763d;
+}
+
+.review-table-header{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.review-table-header select {
+    width: 50px;
+}
+#pagination-block {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.pagination-right span {
+    border-radius: 5px;
+    background: white;
+    text-align: center;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+.pagination-right .active {
+    background: #007bff;
+    color: white;
+}
+/* Review card styles */
+.review-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Review info styles */
+.review-info {
+    margin-bottom: 10px;
+}
+
+/* Review description styles */
+.review-description {
+    color: #666;
+}
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd; /* Add border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+    font-family: Arial, sans-serif; /* Use a common font */
+}
+
+/* Style for table header */
+th {
+    background-color: #f8f8f8;
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd; /* Add bottom border */
+}
+
+/* Style for table rows */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style for table data cells */
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd; /* Add bottom border */
+}
+
+/* Hover effect for table rows */
+tr:hover {
+    background-color: #e6f7ff; /* Light blue hover */
+}
+#review-table h4 {
+    text-align: center;
+}
+
+
